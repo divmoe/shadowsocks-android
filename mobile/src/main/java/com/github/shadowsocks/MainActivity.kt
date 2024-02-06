@@ -58,6 +58,7 @@ import com.google.firebase.analytics.ktx.logEvent
 import com.google.firebase.ktx.Firebase
 import timber.log.Timber
 
+// 主界面，APP入口
 class MainActivity : AppCompatActivity(), ShadowsocksConnection.Callback, OnPreferenceDataStoreChangeListener,
         NavigationView.OnNavigationItemSelectedListener {
     companion object {
